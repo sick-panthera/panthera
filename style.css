@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 220px;
+    padding-right: 220px;
+    gap: 20px;
+    background-color: black;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    gap: 20px;
+}
+
+.header-link {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 220px;
+    gap: 40px;
+
+    background-color: black;
+}
+
+.subheader-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+    gap: 20px;
+    color: white;
+}
+
+.sect2 {
+    background-color: black;
+}
+
+.recent {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.recent-header {
+    color: white;
+    font-size: 18px;
+    padding-left: 220px;
+}
+
+.scroll-box {
+    margin:auto;
+    width: 60%;
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+.scroll-box a {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+.scroll-box a:hover {
+    background-color: #777;
+}
+
+.display-recent {
+    margin: 15px;
+    vertical-align: middle;
+    height: 150px;
+    width: 100px;
+    line-height: 150px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    font-size: 16px;
+    margin: 48px;
+}
