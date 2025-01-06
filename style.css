@@ -8,14 +8,13 @@ body {
 .header {
     display: flex;
     align-items: center;
-    padding-left: 220px;
-    padding-right: 220px;
+    padding: 60px 220px;
     gap: 20px;
     background-color: black;
 }
 
 .header-logo {
-    font-size: 24px;
+    font-size: 50px;
     color: #F9FAF8;
     margin-right: auto;
 }
