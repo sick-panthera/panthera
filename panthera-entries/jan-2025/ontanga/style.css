@@ -10,6 +10,7 @@ body {
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 8px;
     gap: 20px;
     background-color: black;
 }
@@ -60,10 +61,16 @@ body {
 
 .placeholders {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
     background-color: black;
     margin: 0px;
+    padding-bottom: 600px;
 }
 
 .hold-img {
-    height: 20%;
+    height: 300px;
 }
+
